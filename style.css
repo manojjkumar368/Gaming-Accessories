@@ -92,4 +92,80 @@ text-align: center;
         background-color: aliceblue;
 
     }
+/* ============================= */
+/* 📱 Mobile Responsive (Max 600px) */
+/* ============================= */
+@media screen and (max-width: 600px) {
+
+    ul{
+        margin-left: 0%;
+        display: block;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    li{
+        display: block;
+        margin: 8px 0;
+    }
+
+    .box{
+        width: 90%;
+        height: auto;
+        margin: 20px 0 !important;
+    }
+
+    .products{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    input{
+        width: 90%;
+    }
+
+    .contact input{
+        width: 90% !important;
+        height: 40px !important;
+    }
+
+    h1{
+        font-size: 20px;
+        text-align: center;
+    }
+}
+
+
+/* ============================= */
+/* 📱 Tablet Responsive (601px - 1024px) */
+/* ============================= */
+@media screen and (min-width: 601px) and (max-width: 1024px){
+
+    ul{
+        margin-left: 40%;
+    }
+
+    .box{
+        width: 45%;
+        height: auto;
+        margin: 20px !important;
+    }
+
+    .products{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    input{
+        width: 80%;
+    }
+
+    .contact input{
+        width: 80% !important;
+        height: 40px !important;
+    }
+}
     
+
