@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    padding: 0px;
+   
+}
+body{
+    background: url(img/k.png)
+    no-repeat center center/cover;
+}
+
+
+.head{
+    
+    background-color: black;
+     padding-bottom: 25px;
+    color: white;
+    padding-top: 25px;
+    cursor: pointer;
+    h1{
+        color: red;
+    }
+    li,ul,h1{
+     display: inline;
+     
+     li{
+        color: grey;
+        cursor: pointer;
+        font-size: larger;
+     }
+    }
+    ul{
+        margin-left: 60%;
+        
+    }
+li:hover{
+    color: white;
+}
+    
+}
+.ip{
+    border-style: none;
+    border-radius: 50px;
+}
+
+    input{
+        width: 60%;
+        padding: 15px;
+        
+    }
+  .search{
+
+padding: 50px;
+text-align: center;
+
+}
+
+    .products{
+        
+    }
+  
+  .box{
+        border-color: lightcyan;
+        border-width: 2px;
+        border-style: solid;
+        display: inline-block;
+        width: 278px;
+        height: 425px;
+       cursor: pointer;
+       color: aquamarine;
+        
+    }
+    .box:hover{
+        background-color: black;
+        color: white;
+
+    }
+    
+    .about{
+        margin-top: 50px;
+      padding: 20px;
+    margin-left: 0%;
+    }
+
+    .contact{
+        text-align: center;
+        background-color: darkcyan;
+        color: white;
+        padding-bottom: 20px;
+        
+    }
+    button:hover{
+        background-color: aliceblue;
+
+    }
+    
